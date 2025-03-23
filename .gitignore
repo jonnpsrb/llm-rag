@@ -1,0 +1,11 @@
+.env
+.venv
+.next
+node_modules
+
+# IDE
+.idea
+.vscode
+
+# Mac
+.DS_Store
