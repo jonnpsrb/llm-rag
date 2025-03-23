@@ -84,7 +84,7 @@ Reply by using Indonesian language and do not give context about SQL query or Do
         result = qa_chain.invoke({
             "input_documents": context_doc,
             "question": query,
-            "context_sql": str(context_sql),
+            "context_sql": str(context_sql)[:512],
         }, return_only_outputs=True)
         return jsonify({"response": result["output_text"]}), 200
 
