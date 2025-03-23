@@ -18,3 +18,11 @@ Based on `data/ibutler_sqlite.sql` sqlite3 database will be generated and based 
 ### 3. Run local server
 
 - `npm run dev`
+- Local server available at http://localhost:3000
+
+
+### 4. Changing embedding/chunking etc.
+
+1. Run generate script `python scripts/generate.py`
+2. Run python backend and js frontend again `npm run dev`
+3. Test @ http://localhost:3000
