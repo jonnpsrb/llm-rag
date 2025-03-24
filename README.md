@@ -2,7 +2,7 @@
 [Vercel Link](https://llm-rag.vercel.app/)
 
 [!NOTE]  
-Because of the free tier restrictions VERCEL deployed version could be outdated, or not working at all. Please try in your local environment, for better results.
+Because of the free tier restrictions, VERCEL deployed version could be outdated or not working at all. Please try in your local environment, for better results.
 
 ## Usage
 
