@@ -41,8 +41,8 @@ def load_document_from_pdf(pdf_file_path: Path):
 def initialize_chromadb_from_pdf(pdf_file_path: Path, chroma_dir_path: Path):
     doc = load_document_from_pdf(pdf_file_path)
     text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=500,  # 1000 characters per chunk
-        chunk_overlap=200,  # 100 character overlap
+        chunk_size=500,
+        chunk_overlap=200,
         length_function=len,
         is_separator_regex=False,
     )
