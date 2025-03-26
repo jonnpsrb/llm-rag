@@ -75,7 +75,7 @@ def calculate_chunk_ids(chunks):
     return chunks
 
 def get_embedding_function():
-    model_name = "all-MiniLM-L6-v2"
+    model_name = "paraphrase-multilingual-MiniLM-L12-v2"
     model_kwargs = {'device': 'cpu'}
     encode_kwargs = {'normalize_embeddings': True}
 
