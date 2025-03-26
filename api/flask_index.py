@@ -30,7 +30,7 @@ def hello_world():
 
         # Load embeddings
         embeddings = HuggingFaceEmbeddings(
-            model_name="sentence-transformers/all-MiniLM-L6-v2"
+            model_name="paraphrase-multilingual-MiniLM-L12-v2"
         )
 
         try:
